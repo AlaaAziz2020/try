@@ -1,4 +1,4 @@
-var nav = document.querySelector('nav');
+/*var nav = document.querySelector('nav');
 
 window.addEventListener('scroll', function () {
   if (window.pageYOffset > 100) {
@@ -7,7 +7,7 @@ window.addEventListener('scroll', function () {
     nav.classList.remove('bg-dark', 'shadow');
   }
 });
-
+*/
 
 /*$('carousel').Carousel({
   loop:true,

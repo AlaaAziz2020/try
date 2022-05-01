@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="style.css">
 
 	</head>
-	<body>
+	<body style="direction: ltr;">
 
 	
     <!-----------------Form-------------------------------------------------------->
@@ -37,7 +37,7 @@
 							<!--<img src="./images/Untitled-removebg-preview.png" class="bg-light mb-2 text-center" style="width:22%; text-align: center;">-->
 						</div>
 
-			      	<div class="d-flex">
+			      	<div class="d-flex text-left">
 			      		<div class="w-100">
 			      			<h3 class="mb-4">Sign In</h3>
 			      		</div>
@@ -46,11 +46,11 @@
 							<form action="#" class="signin-form">
 			      		<div class="form-group mb-3">
 			      			<label class="label" for="name">Username</label>
-			      			<input type="text" class="form-control" placeholder="Username" required>
+			      			<input type="text" class="form-control user " placeholder="Username" required>
 			      		</div>
 		            <div class="form-group mb-3">
 		            	<label class="label" for="password">Password</label>
-		              <input type="password" class="form-control" placeholder="Password" required>
+		              <input type="password" class="form-control pass-text" placeholder="" required>
 					  <div class="f-password w-50 mt-1">
 						<a href="#">Forgot Password ?</a>
 					</div>
@@ -58,24 +58,10 @@
 		            <div class="form-group">
 		            	<button type="submit" class="form-control btn btn-primary rounded submit px-3">Sign In</button>
 		            </div>
-		            <div class="form-group d-md-flex">
-		            	<div class="w-50 text-left">
-			            	<label class="checkbox-wrap  ">Remember Me
-									  <input type="checkbox" checked>
-									  <span class="checkmark"></span>
-										</label>
-									</div>
-								
-		            </div>
+		  
 		          </form>
-                  <!--<p class="text-center mt-4   account">I don't have an account? <a data-toggle="tab" href="#">Sign Up as</a></p>-->
-
-                  <!--<p class="w-100 text-center">&mdash; Sign up as &mdash;</p>-->
-                 <!----<div class="social text-center">
-                     <a href="supplier-signup.html" class="supplier  mr-md-1 rounded"><span class="mr-2">Supplier</span></a>
-                     <a href="bidder-signup.html" class="bidder px-2 py-2 ml-md-1 rounded"><span class="mr-2"></span> Bidder  </a>
-                </div>-->
-		          <p class="text-center mt-4  account fw-bold">I don't have an account?<a href="supplier-signup.html" class="supplier px-2 py-2 ml-md-1 rounded"><span class=""></span> SignUp </a>
+     
+		          <p class="text-center mt-4  account fw-bold">I don't have an account?<a href="supplier-signup.html" class="supplier  ml-md-1 rounded"><span class=""></span> SignUp </a>
 
 				  </p>
 		        </div>

@@ -27,8 +27,9 @@
         font-size: 24px;
          color: #fff;
     }
+    nav img{width: 60%;}
     .logo a:hover,
-    nav .links li a:hover {color:#e9e1e1}
+    nav .links li a:hover {color:rgb(26, 21, 21)}
     
     nav .links {
       float: right;
@@ -43,8 +44,8 @@
     
     nav .links li {list-style: none;}
     
-    nav .links a {display: block;font-size: 23px;font-weight: bold;color: #fff;text-decoration: none;}
-    
+    nav .links a {display: block;font-size: 23px;font-weight: bold;color: #000;text-decoration: none;}
+    .nav-item:active{color: #000;}
     #nav-toggle {position: absolute;top: -100px;}
     
     nav .icon-burger {display: none;position: absolute;right: 5%;top: 20%;;}
@@ -55,6 +56,8 @@
       padding-bottom: 3px !important;
     text-decoration: none;
   width: 5%;}
+  h1,h4{    color: #b85c38 !important;
+  }
   .about-me .image img {
     max-width: 100% !important;
     height: 446px;
@@ -283,7 +286,8 @@ padding: 10px 15px;
 /*Footer*/
 /*** Footer ***/
 .footer .social-media a{border-radius: 50%;    border-radius: 50%;
-  font-size: 22px;
+  font-size: 22px
+  
 }
 .footer .btn.btn-social {
 margin-right: 5px;
@@ -322,7 +326,6 @@ font-family: "Font Awesome 5 Free";
 font-weight: 900;
 margin-right: 10px;
 }
-.footer img{width: 30%;}
 .footer .btn.btn-link:hover {
 letter-spacing: 1px;
 box-shadow: none;
@@ -350,10 +353,12 @@ margin-right: 0;
 padding-right: 0;
 border-right: none;
 }
-.footer p{font-size:27px}
-.footer-logo{border-radius: 50%   
+.footer p{font-size:23px}
+
+.footer-logo {width: 140px;
+  background: #fff;
+  border-radius: 50%;
 }
-.footer img{width:5%}
 .back-to-top{ float: right}
 /*Footer*/
 /*************************************End Home Page******************************************/
@@ -375,7 +380,7 @@ border-right: none;
             height:600px !important
           }
       .banner-image h4,
-      .home-image h4{color: #fff;font-size: 28px;font-weight: 500;}
+      .home-image h3{font-size: 28px;font-weight: 500;}
       .about-image h1{font-size: 50px;letter-spacing: 22px;font-weight: bold}
     
     
@@ -404,8 +409,44 @@ border-right: none;
      padding-left: 30px;
      cursor: pointer;
      color:#fff}
-       .btn1,.b{background-color: #784f57;border: 2px solid #784f57}
+     .btn {
+      display: inline-block;
+      font-weight: 400;
+      color: #212529;
+      text-align: center;
+      vertical-align: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      background-color: transparent;
+      border: 1px solid transparent;
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: 0.25rem;
+      -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+      -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out; }
+   
+       .btn1,.b{  background: #B85C38 !important;
+        /* border: 1px solid #4bdbe300 !important; */
+        color: #fff !important;
+        border-radius: 9px !important;
+        font-size: 15px;
+
+      }
        .btn2{border: 1px solid #fff;}
+       .buttons .labor{  background: #B85C38 !important;
+        /* border: 1px solid #4bdbe300 !important; */
+        color: #fff !important;
+        border-radius: 9px !important;
+        font-size: 23px;
+        padding:11px
+       }
+       
       /*nav{    height: 60px }*/
       nav .menu-link{border:.5px solid #fff;    padding: 10px;
         margin-bottom: 16px;}
@@ -418,7 +459,8 @@ border-right: none;
       /*End Banner*/
       /*Start Tenders*/
       .our-tenders h5,.medical h5{font-size: 24px;
-        font-weight: 500;color: #02100F;}
+        font-weight: 500;  color: #cd5729;
+        ;}
       .our-tenders p,.medical p{font-size: 20px;}
       .tenders h1{ letter-spacing: 9px;
         color:#02100F;
@@ -507,12 +549,11 @@ background-image: linear-gradient(#0008,#0008), url(../images/pexels-towfiqu-bar
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
-border-bottom-left-radius: 26%;
 height:300px !important
 }
 .about-me a {color:#1a1a1a;}
 .about-me a:hover{color: #dd5c80}
-.about-me h2,h5,.about-me-banner h3,.about-me-banner i{color:#dd5c80;    font-size: 50px}
+.about-me h2,h5,.about-me-banner h3,.about-me-banner i{color:#b85c38;    font-size: 50px}
 .about-me p{font-size: 22px;}
 
 
@@ -606,7 +647,7 @@ transition: .5s;
 /*************************************End About Page*****************************************/
 /*************************************Start Products Page*****************************************/
 .products-section{background-color: #cccccc21;}
-.products-section h2,.about-me span{color: #dd5c80}
+.products-section h2,.about-me span{color: #b85c38}
 .products-section h2{    font-size: 38px}
 .products-section p{    font-size: 30px;
 }
@@ -616,7 +657,6 @@ transition: .5s;
 .card{
 height: 450px;
 position: relative;
-transform-style: preserve-3d;
 transition: 1s;
 border-bottom-left-radius: 26%;
 }
@@ -786,12 +826,13 @@ height: 759px;
 .contact-info h2{color: #b96d6d}
 .contact-info p{ color: #1a1a1a}
 .contact a{
-background-color: #c88c98;
-/* height: 127px; */
-color: #fff;
-padding: 25px;
-text-decoration: none;
-}
+  background-color: #c88c98;
+  /* height: 127px; */
+  color: #fff;
+  padding: 13px;
+  text-decoration: none;
+  }
+
 /*************************************End Contact Page*****************************************/
 
 /*** Service ***/
@@ -980,7 +1021,7 @@ l
 	border-radius: 50%;
 	background-position: center;
 	background-size: cover;
-	border:3px solid transparent;
+	border:3px solid #fff;
 	transition: all 0.1s ease;
 }
 .latest .carousel-indicators li.active{border-color: #ffffff;transform: scale(1.2)}
@@ -1041,6 +1082,7 @@ font-weight: bold;
   height: 300px;
   color: #fff;
   text-align: center;}
+  .medicaltender h4{color: #fff !important;}
 
   .medicaltender-info2{  
     background-image: linear-gradient(#0008,#0008), url('../images/pexels-pavel-danilyuk-6812432.jpg');
@@ -1100,4 +1142,5 @@ font-weight: bold;
 .medicaltender-info .image img{min-width: 79% !important; height: 276px }
 .medicaltender-info .text img{width: 20px; margin-left: 6px}
 .medicaltender .btn5{background-color: rgb(54, 123, 228); padding: 7px}
+
 
